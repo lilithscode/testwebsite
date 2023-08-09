@@ -1,0 +1,29 @@
+/* css söz dizim kuralları
+seçici seçilir {
+    buraya da css kuralları yazılır. 
+} */
+
+h1 {
+    font-size:32px;
+    color:#636363;
+}
+a{
+    text-decoration: none;
+}
+div {
+    background-color: blanchedalmond;
+}
+div+div{
+ border: 1px solid red;   
+}
+a::after{
+    content: "->";
+}
+#Ana-Baslik {
+    font-size: 42px;
+    color: red;
+    font-weight:bolder;
+}
+.Text-blue {
+    color: blue;
+}
